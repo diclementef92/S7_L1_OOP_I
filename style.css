@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&display=swap");
+body {
+  font-family: "Comfortaa", cursive;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 20vh;
+}
+form button {
+  border: 0;
+  background-color: rgb(7, 201, 255);
+  border-radius: 5px;
+  padding: 5px;
+}
+form button:hover {
+  transform: scale(1.05);
+}
+
+.errorMessage {
+  height: 10vh;
+  color: red;
+}

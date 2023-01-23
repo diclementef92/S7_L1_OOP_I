@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>esercizio input form</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <h1>Registrati</h1>
+    <form>
+        <div><label for="username">Username:</label><input type="text" id="username" placeholder="Username" required>
+        </div>
+        <div><label for="password">password:</label><input type="password" id="password" placeholder="Password"
+                required></div>
+        <div><label for="birthday">Data di Nascita:</label><input type="date" id="birthday"
+                placeholder="Data di Nascita"></div>
+        <button type="button" id="loginButton">Login</button>
+    </form>
+    <p class="errorMessage"></p>
+
+    <table>
+        <thead>
+            <th>Utenti registrati:</th>
+        </thead>
+        <tbody>
+            <!-- <tr></tr> -->
+        </tbody>
+    </table>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
